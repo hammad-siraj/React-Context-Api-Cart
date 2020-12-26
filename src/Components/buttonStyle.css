@@ -1,0 +1,46 @@
+#btn {
+  background: #ce4760;
+  height: 30px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  /* font-family: "; */
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+  align-items: center;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+  color: #ce4760;
+  border: 1px solid #ce4760;
+}
